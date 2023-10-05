@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.2%;
+    font-size: large;
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+    width: 50%;
+    column-count: 2;
+    column-gap: 3%;
+    column-rule: 1px;
+    margin-left: 25%;
+}
+
+#section-text{
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+}
