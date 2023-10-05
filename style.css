@@ -6,23 +6,65 @@
 .title {
 
     text-align: center;
-    margin-top: 2.5%;
+    margin-top: 1px;
     margin-bottom: 2.2%;
-    font-size: large;
+    font-size: xx-large;
 }
 
 p {
-    text-align: center;
-    font-size: medium;
-    width: 50%;
+    font-size: large;
+    width:70%;
     column-count: 2;
-    column-gap: 3%;
+    column-gap: 3.2%;
     column-rule: 1px;
-    margin-left: 25%;
-}
-
-#section-text{
+    margin-left: 17%;
+    margin-right: 25%;
+}#section-text {
     background: #eaeaea;
     color: #333;
-    padding-bottom: 2em;
+    padding: 5vw;
+    margin-bottom: 0.5px;
+
 }
+
+#section-card {
+    background-color: #000000e2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10vw;
+    margin-top: 1px;
+
+}
+
+.contain-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 1vw;
+    height: 40vh;
+    padding: 15%;
+
+}
+
+
+
+.card img {
+    width: 20vw;
+    height: 15vw;
+    margin-top: 1px;
+}
+
+.title-card {
+    font-size: x-large;
+    justify-content: space-between;
+   
+
+}
+
+.paragrahp-card{
+    font-size: medium;
+    flex-direction: column-reverse;
+}
+
