@@ -11,7 +11,7 @@
     font-size: xx-large;
 }
 
-p {
+.column {
     font-size: large;
     width:70%;
     column-count: 2;
@@ -19,7 +19,9 @@ p {
     column-rule: 1px;
     margin-left: 17%;
     margin-right: 25%;
-}#section-text {
+}
+
+#section-text {
     background: #eaeaea;
     color: #333;
     padding: 5vw;
@@ -28,7 +30,7 @@ p {
 }
 
 #section-card {
-    background-color: #000000e2;
+    background-color: #000000cd;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -36,7 +38,6 @@ p {
     margin-top: 1px;
 
 }
-
 .contain-card {
     display: flex;
     flex-direction: column;
@@ -45,6 +46,7 @@ p {
     width: 1vw;
     height: 40vh;
     padding: 15%;
+    
 
 }
 
@@ -54,17 +56,35 @@ p {
     width: 20vw;
     height: 15vw;
     margin-top: 1px;
+   
 }
 
 .title-card {
-    font-size: x-large;
+    font-size: X-large;
     justify-content: space-between;
-   
+
 
 }
 
-.paragrahp-card{
+.paragrahp-card {
     font-size: medium;
-    flex-direction: column-reverse;
+    
 }
 
+#section-C{
+    background: #eaeaea83;
+    padding: 5vw;
+
+}
+
+.titleH3{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.Paragraph {
+    margin-top: 2%;
+    font-size: x-large;
+}
