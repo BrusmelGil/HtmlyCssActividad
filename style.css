@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,7 @@
 
 .column {
     font-size: large;
-    width:70%;
+    width: 70%;
     column-count: 2;
     column-gap: 3.2%;
     column-rule: 1px;
@@ -36,7 +36,6 @@
     justify-content: space-around;
     padding: 5vw;
     margin-top: 1px;
-
 }
 .contain-card {
     display: flex;
@@ -46,45 +45,108 @@
     width: 1vw;
     height: 40vh;
     padding: 15%;
-    
-
 }
-
-
 
 .card img {
     width: 20vw;
     height: 15vw;
     margin-top: 1px;
-   
 }
 
 .title-card {
     font-size: X-large;
     justify-content: space-between;
-
-
 }
 
 .paragrahp-card {
     font-size: medium;
-    
+
 }
 
-#section-C{
+#section-C {
     background: #eaeaea83;
     padding: 5vw;
-
 }
 
-.titleH3{
+.titleH3 {
     text-align: center;
-    font-size: xx-large;
+    font-size: 2em;
     margin-top: 2%;
     margin-bottom: 5%;
 }
 
 .Paragraph {
     margin-top: 2%;
-    font-size: xlarge;
+    font-size: 0.8em;
+}
+
+#section-box {
+    display: flex;
+}
+
+.box-left {
+    background: #2690d4;
+    width: 50%;
+    text-align: center;
+}
+
+.textBoxContact {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 1.2em;
+    color: white;
+}
+
+.title-box {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 2em;
+    color: white;
+
+}
+
+.text-box {
+    color: white;
+}
+
+.box-right {
+    background-color: rgba(0, 0, 0, 0.756);
+    width: 50%;
+    text-align: center;
+}
+
+#footer {
+    background: black;
+    padding: 2em;
+
+}
+
+/* .text-footer {
+    color: white;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.text-footer-right{
+    color: white;
+    font-size: 1.5em;
+    text-align: right;
+    
+    
+} */
+.text-footer{
+    color: white;
+    font-size: 1.5em;
+    align-items: flex-end; 
+    float: left;
+    width: 50%;
+
+}
+
+.text-footer-right{
+    color: white;
+    font-size: 1.5em;
+    float: right;
+    width: 50%;
+    
 }
