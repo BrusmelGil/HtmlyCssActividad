@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
 }
-
+ */
 .title {
 
     text-align: center;
@@ -30,37 +30,37 @@
 }
 
 #section-card {
-    background-color: #000000cd;
+    
+    background: rgba(0, 0, 0, 0.808);
+    padding: 80px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 5vw;
-    margin-top: 1px;
 }
 
 .contain-card {
-    display: flex;
+    width: 120%;
+    margin: 20px;
+    border-radius: 6px;
+    background: #fff;
+    overflow: hidden;
     flex-direction: column;
-    align-items: center;
-    background-color: white;
-    width: 1vw;
-    height: 40vh;
-    padding: 15%;
+    text-align: center;
 }
 
 .card img {
-    width: 20vw;
-    height: 15vw;
-    margin-top: 1px;
+    width: 100%;
+    height: 20%;
+    flex-direction: column;
 }
 
-.title-card {
-    font-size: X-large;
-    justify-content: space-between;
+.title-card h2 {
+    font-weight: 400;
+    margin-bottom: 15px;
 }
 
-.paragrahp-card {
-    font-size: medium;
+.paragrahp-card p {
+    line-height: 1.5;
+    color: #6a6a6a;
+
 
 }
 
